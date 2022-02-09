@@ -23,8 +23,8 @@ enum {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE] = LAYOUT_split_3x6_3(
     KC_GRV,    KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              KC_QUOT,  KC_BSLS,
-    KC_GRV, LCTL_T(KC_A),      LALT_T(KC_R),      LGUI_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_K,              LSFT_T(KC_N),      LGUI_T(KC_E),      LALT_T(KC_I),      LCTL_T(KC_O), KC_EQL,
-    KC_GRV, KC_Z,  KC_X,      KC_C,              KC_D,              KC_V,              KC_M,              KC_H,              KC_COMM,           KC_DOT,    KC_SLSH,  KC_SCLN,
+    KC_GRV, LCTL_T(KC_A),      LALT_T(KC_R),      LGUI_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              LSFT_T(KC_N),      LGUI_T(KC_E),      LALT_T(KC_I),      LCTL_T(KC_O), KC_EQL,
+    KC_GRV, KC_Z,  KC_X,      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           KC_DOT,    KC_SLSH,  KC_SCLN,
       LT(FUN, KC_ESC),   LT(NUM, KC_SPC),  LT(SYM, KC_TAB),   LT(MOUSE, KC_ENT), LT(NAV, KC_BSPC),   LT(MEDIA, KC_DEL)
 
   ),
