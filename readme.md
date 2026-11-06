@@ -5,16 +5,14 @@
 
 ## License
 
-MIT (see [LICENSE](LICENSE)) for original work in this repository, with these
-exceptions:
+GPL-2.0-or-later (see [LICENSE](LICENSE)), the same as QMK and
+[Miryoku](https://github.com/manna-harbour/miryoku), which this layout follows.
+The `U_*` definitions and layer structure in `keymap.c` are taken from
+Miryoku's QMK implementation.
 
-- The layout in `keymap.c` follows [Miryoku](https://github.com/manna-harbour/miryoku)
-  by Manna Harbour, and its `U_*` definitions and layer structure are taken from
-  Miryoku's QMK implementation. Those portions keep Miryoku's GPL-2.0-or-later
-  license.
-- `features/caps_word.c` and `features/caps_word.h` are Copyright Google LLC
-  (from [getreuer/qmk-keymap](https://github.com/getreuer/qmk-keymap)) and
-  licensed under Apache-2.0. A copy of that license is in
-  [features/LICENSE](features/LICENSE).
-
-Any firmware built from this keymap links QMK and is GPL-2.0-or-later.
+`features/caps_word.c` and `features/caps_word.h` are Copyright Google LLC
+(from [getreuer/qmk-keymap](https://github.com/getreuer/qmk-keymap)) and keep
+their Apache-2.0 license, a copy of which is in
+[features/LICENSE](features/LICENSE). Apache-2.0 code can't be combined with
+GPLv2-only code, so firmware that includes these files is distributed under
+GPLv3 or later, which the "or later" clause allows.
